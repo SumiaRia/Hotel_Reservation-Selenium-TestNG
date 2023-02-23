@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="4">
+    <test verbose="2" preserve-order="true" name="H:/HotelPlanisphere">
+        <classes>
+            <class name="webtests.LogoutTest"/>
+
+            <class name="webtests.ReservationTest"/>
+
+            <class name="webtests.SignInTest"/>
+
+            <class name="webtests.SignUpTest"/>
+        </classes>
+    </test>
+</suite>
